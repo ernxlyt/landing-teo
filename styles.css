@@ -30,7 +30,7 @@ body {
   font-family: "Inter", sans-serif;
   line-height: 1.6;
   color: var(--text-light);
-  background: #000;
+  background: var(--gradient-dark);
   overflow-x: hidden;
 }
 
@@ -133,8 +133,7 @@ body {
 /* Hero Section */
 .hero {
   min-height: 100vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
-    url("https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-mMhJpO3gbdykfAlzgmdgjhrXlILmh0.png");
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url("Florida.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -142,7 +141,8 @@ body {
   align-items: center;
   position: relative;
   z-index: 2;
-  padding: 80px 0;
+  padding: 80px 0 0 0;
+  margin-bottom: 0;
 }
 
 .hero-overlay {
@@ -456,8 +456,9 @@ body {
 /* Questions Section */
 .questions-section {
   background: var(--gradient-dark);
-  padding: 120px 0;
+  padding: 80px 0 120px 0;
   position: relative;
+  margin-top: 0;
 }
 
 .section-header {
